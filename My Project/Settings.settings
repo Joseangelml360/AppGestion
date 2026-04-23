@@ -5,18 +5,18 @@
     <Setting Name="dbcensosConnectionString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;server=localhost;user id=root;persistsecurityinfo=True;database=dbcensos&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;server=86.109.162.100;user id=JA_Censos;password=hH4pw&amp;amp;06;persistsecurityinfo=True;database=dbcensos&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">server=localhost;user id=root;persistsecurityinfo=True;database=dbcensos</Value>
+      <Value Profile="(Default)">server=86.109.162.100;user id=JA_Censos;password=hH4pw&amp;06;persistsecurityinfo=True;database=dbcensos</Value>
     </Setting>
     <Setting Name="dbcensosConnectionString1" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;server=localhost;user id=root;password=SQLjosan1800;persistsecurityinfo=True;database=dbcensos&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;server=86.109.162.100;user id=JA_Censos;password=hH4pw&amp;amp;06;persistsecurityinfo=True;database=dbcensos&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">server=localhost;user id=root;password=SQLjosan1800;persistsecurityinfo=True;database=dbcensos</Value>
+      <Value Profile="(Default)">server=86.109.162.100;user id=JA_Censos;password=hH4pw&amp;06;persistsecurityinfo=True;database=dbcensos</Value>
     </Setting>
   </Settings>
 </SettingsFile>

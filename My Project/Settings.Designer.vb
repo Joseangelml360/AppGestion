@@ -15,7 +15,7 @@ Option Explicit On
 Namespace My
     
     <Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
-     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.8.1.0"),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.10.0.0"),  _
      Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)>  _
     Partial Friend NotInheritable Class MySettings
         Inherits Global.System.Configuration.ApplicationSettingsBase
@@ -57,7 +57,8 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("server=localhost;user id=root;persistsecurityinfo=True;database=dbcensos")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("server=86.109.162.100;user id=JA_Censos;password=hH4pw&06;persistsecurityinfo=Tru"& _ 
+            "e;database=dbcensos")>  _
         Public ReadOnly Property dbcensosConnectionString() As String
             Get
                 Return CType(Me("dbcensosConnectionString"),String)
@@ -67,8 +68,8 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("server=localhost;user id=root;password=SQLjosan1800;persistsecurityinfo=True;data"& _ 
-            "base=dbcensos")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("server=86.109.162.100;user id=JA_Censos;password=hH4pw&06;persistsecurityinfo=Tru"& _ 
+            "e;database=dbcensos")>  _
         Public ReadOnly Property dbcensosConnectionString1() As String
             Get
                 Return CType(Me("dbcensosConnectionString1"),String)

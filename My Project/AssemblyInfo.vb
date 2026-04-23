@@ -9,10 +9,10 @@ Imports System.Runtime.InteropServices
 ' Revisar los valores de los atributos del ensamblado
 
 <Assembly: AssemblyTitle("AppGestion")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("LG")>
+<Assembly: AssemblyDescription("Aplicación de gestión de Censos y Cuotas para Falla La Creu")>
+<Assembly: AssemblyCompany("JA&Soft")>
 <Assembly: AssemblyProduct("AppGestion")>
-<Assembly: AssemblyCopyright("Copyright © LG 2021")>
+<Assembly: AssemblyCopyright("Copyright © José Angel Martínez 2021. (Revisión 71, abril 2026)")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' utilizando el carácter "*", como se muestra a continuación:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.0.0.0")>
-<Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: AssemblyVersion("2.1.0.16")>
+<Assembly: AssemblyFileVersion("2.1.0.16")>
