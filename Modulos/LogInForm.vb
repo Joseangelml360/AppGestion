@@ -12,6 +12,8 @@ Public Class LogInForm
         Me.HelpProvider1.HelpNamespace = "Ayuda.chm"
 
         Me.Label2.Visible = False
+        Me.LabelVersion.Text = String.Format("Versión {0}", My.Application.Info.Version.ToString)
+
 
     End Sub
 

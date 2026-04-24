@@ -46,6 +46,7 @@ Partial Class LogInForm
         Me.RolBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.RolTableAdapter = New AppGestion.dbcensosDataSetTableAdapters.rolTableAdapter()
         Me.HelpProvider1 = New System.Windows.Forms.HelpProvider()
+        Me.LabelVersion = New System.Windows.Forms.Label()
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EjercicioBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DbCensos, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -190,7 +191,6 @@ Partial Class LogInForm
         Me.TableAdapterManager.estadoTableAdapter = Nothing
         Me.TableAdapterManager.fallasTableAdapter = Nothing
         Me.TableAdapterManager.falleroTableAdapter = Nothing
-        'Me.TableAdapterManager.historfaTableAdapter = Nothing
         Me.TableAdapterManager.letradniTableAdapter = Nothing
         Me.TableAdapterManager.RecompensasAgrupacionTableAdapter = Nothing
         Me.TableAdapterManager.RecompensasFallaTableAdapter = Nothing
@@ -229,11 +229,21 @@ Partial Class LogInForm
         '
         Me.RolTableAdapter.ClearBeforeFill = True
         '
+        'LabelVersion
+        '
+        Me.LabelVersion.AutoSize = True
+        Me.LabelVersion.Location = New System.Drawing.Point(151, 424)
+        Me.LabelVersion.Name = "LabelVersion"
+        Me.LabelVersion.Size = New System.Drawing.Size(56, 17)
+        Me.LabelVersion.TabIndex = 19
+        Me.LabelVersion.Text = "Versión"
+        '
         'LogInForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(801, 450)
+        Me.Controls.Add(Me.LabelVersion)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.AñoejeTextBox)
         Me.Controls.Add(Me.Label2)
@@ -284,4 +294,5 @@ Partial Class LogInForm
     Friend WithEvents RolBindingSource As BindingSource
     Friend WithEvents RolTableAdapter As dbcensosDataSetTableAdapters.rolTableAdapter
     Friend WithEvents HelpProvider1 As HelpProvider
+    Friend WithEvents LabelVersion As Label
 End Class
