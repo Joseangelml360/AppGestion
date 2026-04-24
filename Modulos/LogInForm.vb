@@ -1,5 +1,8 @@
-﻿Public Class LogInForm
+﻿Imports AutoUpdaterDotNET
+Public Class LogInForm
     Private Sub LogInForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        AutoUpdater.Start("https://raw.githubusercontent.com/Joseangelml360/AppGestion/master/version.xml")
+
         'TODO: esta línea de código carga datos en la tabla 'DbcensosDataSet.rol' Puede moverla o quitarla según sea necesario.
         Me.RolTableAdapter.Fill(Me.DbcensosDataSet.rol)
         'TODO: esta línea de código carga datos en la tabla 'DbcensosDataSet.usuarios' Puede moverla o quitarla según sea necesario.
