@@ -14,7 +14,7 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application_Files\AppGestion_3_1_0_0\AppGestion.exe.manifest" size="77526">
+    <dependentAssembly dependencyType="install" codebase="Application Files\AppGestion_3_1_0_0\AppGestion.exe.manifest" size="77526">
       <assemblyIdentity name="AppGestion.exe" version="3.1.0.0" publicKeyToken="a0895502f95ae76c" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
