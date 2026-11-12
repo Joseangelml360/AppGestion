@@ -5,18 +5,18 @@
     <Setting Name="dbcensosConnectionString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;server=mysql-324aad11-joseangelml360-9fa3.e.aivencloud.com;port=24267;user id=avnadmin;password=PASSWORD_AQUI;persistsecurityinfo=True;database=dbcensos;sslmode=Required;certificatefile=C:\Datos\MySQL_Local\ca.pem;allowpublickeyretrieval=True&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;cadenaDeConexion&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">server=mysql-324aad11-joseangelml360-9fa3.e.aivencloud.com;port=24267;user id=avnadmin;password=PASSWORD_AQUI;persistsecurityinfo=True;database=dbcensos;sslmode=Required;certificatefile=C:\Datos\MySQL_Local\ca.pem;allowpublickeyretrieval=True</Value>
+      <Value Profile="(Default)">cadenaDeConexion</Value>
     </Setting>
     <Setting Name="dbcensosConnectionString1" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;server=mysql-324aad11-joseangelml360-9fa3.e.aivencloud.com;port=24267;user id=avnadmin;password=PASSWORD_AQUI;persistsecurityinfo=True;database=dbcensos;sslmode=Required;certificatefile=C:\Datos\MySQL_Local\ca.pem;allowpublickeyretrieval=True&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;cadenaDeConexion&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">server=mysql-324aad11-joseangelml360-9fa3.e.aivencloud.com;port=24267;user id=avnadmin;password=PASSWORD_AQUI;persistsecurityinfo=True;database=dbcensos;sslmode=Required;certificatefile=C:\Datos\MySQL_Local\ca.pem;allowpublickeyretrieval=True</Value>
+      <Value Profile="(Default)">cadenaDeConexion</Value>
     </Setting>
   </Settings>
 </SettingsFile>

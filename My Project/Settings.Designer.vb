@@ -58,9 +58,7 @@ Namespace My
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
          Global.System.Configuration.DefaultSettingValueAttribute("server=mysql-324aad11-joseangelml360-9fa3.e.aivencloud.com;port=24267;user id=avn"& _ 
-            "admin;password=PASSWORD_AQUI;persistsecurityinfo=True;database=dbcens"& _ 
-            "os;sslmode=Required;certificatefile=C:\Datos\MySQL_Local\ca.pem;allowpublickeyre"& _ 
-            "trieval=True")>  _
+            "cadenaDeConexion")>  _
         Public ReadOnly Property dbcensosConnectionString() As String
             Get
                 Return CType(Me("dbcensosConnectionString"),String)
@@ -71,9 +69,7 @@ Namespace My
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
          Global.System.Configuration.DefaultSettingValueAttribute("server=mysql-324aad11-joseangelml360-9fa3.e.aivencloud.com;port=24267;user id=avn"& _ 
-            "admin;password=PASSWORD_AQUI;persistsecurityinfo=True;database=dbcens"& _ 
-            "os;sslmode=Required;certificatefile=C:\Datos\MySQL_Local\ca.pem;allowpublickeyre"& _ 
-            "trieval=True")>  _
+            "cadenaDeConexion")>  _
         Public ReadOnly Property dbcensosConnectionString1() As String
             Get
                 Return CType(Me("dbcensosConnectionString1"),String)
